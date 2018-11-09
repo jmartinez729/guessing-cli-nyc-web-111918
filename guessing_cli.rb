@@ -3,7 +3,7 @@ def run_guessing_game
   guess = gets.chomp
   number = rand(1..6)
   
- 
+  while guess.to_i != exit
     if guess == "exit"
       puts "Goodbye!"
       break
@@ -11,5 +11,5 @@ def run_guessing_game
       puts "You guessed the correct number!"
       break
     end 
-
+  end 
 end 
