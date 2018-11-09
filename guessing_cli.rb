@@ -5,7 +5,9 @@ def run_guessing_game
     guess = gets.strip
     number = rand(1..6)
     
-    
+    if guess == "exit"
+      puts "Goodbye!"
+      break
   
   
 
