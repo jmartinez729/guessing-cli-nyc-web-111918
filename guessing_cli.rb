@@ -9,7 +9,9 @@ def run_guessing_game
       puts "Goodbye!"
       break
     elsif guess.to_i == number
-      puts 
+      puts "You guessed the correct number!"
+    end 
+  end 
   
   
 
