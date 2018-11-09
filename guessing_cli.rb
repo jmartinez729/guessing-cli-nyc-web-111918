@@ -8,7 +8,8 @@ def run_guessing_game
     if guess == "exit"
       puts "Goodbye!"
       break
-    elsif guess == 
+    elsif guess.to_i == number
+      puts 
   
   
 
